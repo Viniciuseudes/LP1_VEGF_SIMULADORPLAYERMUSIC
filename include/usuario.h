@@ -9,7 +9,7 @@ class Usuario
 {
 
 public:
-    stn::string Getnome() const;
+    std::string Getnome() const;
     std::string GetDataNasc() const;
     std::string GetNacionalidade() const;
     std::string GetEmail() const;
